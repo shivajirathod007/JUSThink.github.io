@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="web icon" type="png" href="logo 2.png">
+    <link rel="webp" href="ligin.html">
+</head>
+<body>
+	<h1 align="center" style="color: red;">Login Page</h1>
+  <header>
+	<form>
+    <div class="imgcontainer">
+          <img src="hii-removebg-preview (1).png" alt="Avatar"></div>
+          <style>
+            .imgcontainer{
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              border-left-color: 0px;
+             
+            }
+          </style>
+       
+      </header>
+        <div class="container" style="font-size: 24px;">
+          <label for="uname"><b style="color: rgb(255, 255, 255);">Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+      
+          <label for="psw"><b style="color: rgb(255, 249, 249);">Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+          <label for="psw"><b style="color: rgb(255, 255, 255);">Confirm Password</b></label>
+          <input type="password" placeholder="Re-Enter Password" name="psw" required>
+      
+          <button align="center"><a style="text-decoration: none;" href="ligin.html">Login</a></button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember" style="color: rgb(255, 255, 255);"> Remember me
+          </label>
+          <button type="button" class="cancelbtn"><a href="compshop.html" style="text-decoration: none;">Cancel</a></button>
+          <script>function checkPasswordMatch() {
+            var password = document.getElementById("password").value;
+            var confirmPassword = document.getElementById("confirmPassword").value;
+        
+            if (password != confirmPassword) {
+                document.getElementById("confirmPassword").setCustomValidity("Passwords do not match");
+            } else {
+                document.getElementById("confirmPassword").setCustomValidity("");
+            }
+        }
+        
+        document.getElementById("password").addEventListener("keyup", checkPasswordMatch);
+        document.getElementById("confirmPassword").addEventListener("keyup", checkPasswordMatch);</script>
+        </div>
+      </form>      
+</body>
+</html>

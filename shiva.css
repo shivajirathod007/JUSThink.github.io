@@ -1,0 +1,188 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  header {
+    background: linear-gradient(#020202,#8b8282);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+  }
+  header input[type="text"] {
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    
+  }
+  
+  header button[type="submit"] {
+    background-color: #1778ff;
+    border: none;
+    border-radius: 3px;
+    color: #232f3e;
+    margin-left: 5px;
+    padding: 5px 10px;
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    margin-right: 20px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  header a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+  }
+  
+  main {
+    display: flex;
+    margin: 15px;
+  }
+  
+  main h1 {
+    font-size: 32px;
+    margin: 0;
+  }
+  
+  main section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 20px;
+    width: 70%;
+  }
+  
+  main article {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 30%;
+  }
+  
+  main article img {
+    max-width: 90%;
+  }
+  
+  main article h2 {
+    font-size: 18px;
+    margin: 10px 0 5px 0;
+  }
+  
+  main article p:first-of-type {
+    color: #1778ff;
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  main article p:last-of-type {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
+  main article button {
+    background-color: #1778ff;
+    border: none;
+    border-radius: 3px;
+    color: #232f3e;
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 5px 10px;
+  }
+  
+  main aside {
+    background-color: #f2f2f2;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    padding: 10px;
+    width: 60px;
+  }
+  
+  main aside h2 {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+  }
+  
+  main aside label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  main aside select {
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 18px;
+    padding: 5px;
+  }
+  
+  main aside input[type="text"] {
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  main aside button[type="submit"] {
+    background-color:#1778ff}
+    address{
+      max-width: auto px;
+      margin: auto;
+      text-align: center;
+      background: linear-gradient(#6f00ff,#c2bcd8,#0c0c0c);
+      display: block;
+      animation: name duration timing-function delay iteration-count direction fill-mode;
+      color: #f2f2f2;
+    }
+    address.a1{
+      display: flex;
+      align-items: left;
+      justify-content: left;
+      text-align: left;
+    }
+    main{
+      width: 100%;
+      white-space: normal;
+      overflow-x: auto;
+      
+    }
+    marquee{
+      background-color: black;
+      font-weight:bold;
+  color:red;
+  text-shadow: 2px 2px 8px #FF0000;
+  font-size: 30px;
+}
+.flex-container {
+  display: flex;
+}
+
+.flex-child {
+  flex: 1;
+  border: 2px solid #6f00ff;
+}  
+
+.flex-child:first-child {
+  margin-right: 20px;
+}
+
+  
+  
